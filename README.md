@@ -1,6 +1,6 @@
 # Horse-Racing-Simulation
 
-<img src="https://freesvg.org/img/race_horse.png">
+<img src="https://media.istockphoto.com/id/511801274/vector/jockey-on-horse.jpg?s=612x612&w=0&k=20&c=8okiQUOClXm1kRFr16IFsxzm7VPZM8QYwoFH0_e9C9Y=">
 
 
 The art of randomness -- introduction this Project on Horse Racing Simulaton!
