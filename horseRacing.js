@@ -36,8 +36,8 @@ var position6 = 20;
 var horse6 = document.getElementById('horse6');
 
 var min = 0;
-var max = width - 67.5;
-var maxInt = max / 200;
+var max = width - 70;
+var maxInt = max / 120;
 var finishTime = [0, 0, 0, 0, 0, 0];
 
 let condition = true;
@@ -65,7 +65,7 @@ addEventListener('keydown', () => {
   sub.innerHTML = "COUNTDOWN";
 // window.onload = function () {
   if (condition) {
-    var fiveSeconds = 5,
+    var fiveSeconds = 3,
     display = document.querySelector("#countdown");
     startTimer(fiveSeconds, display);
   } 
@@ -78,7 +78,7 @@ addEventListener('keydown', () => {
     horse5.classList.add("fa-beat-fade");
     horse6.classList.add("fa-beat-fade");
     condition = true;
-  }, 7000);
+  }, 4000);
     
   function move1(){
     var velocity1 = getRandomInt(maxInt);
@@ -161,7 +161,7 @@ addEventListener('keydown', () => {
     interval4 = setInterval(move4, 20);
     interval5 = setInterval(move5, 20);
     interval6 = setInterval(move6, 20);
-  }, 7000);
+  }, 4000);
   
   setTimeout(() => {
     const min = Math.min(...finishTime)
@@ -181,12 +181,12 @@ addEventListener('keydown', () => {
       horse5.style.left = position1 + "px";
       position6 = 20;
       horse6.style.left = position1 + "px";
-      sub.innerHTML = "PICK THE HORSE NUMBER YOU BET WILL WIN";
+      sub.innerHTML = "PRESS ANY KEY TO PLAY AGAIN";
     }, 4000);
       
 
     
-  },17500);
+  },11000);
   
 });
 
