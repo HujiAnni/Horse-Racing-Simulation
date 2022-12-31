@@ -1,6 +1,6 @@
 # Horse-Racing-Simulation
 
-<img src="https://media.istockphoto.com/id/511801274/vector/jockey-on-horse.jpg?s=612x612&w=0&k=20&c=8okiQUOClXm1kRFr16IFsxzm7VPZM8QYwoFH0_e9C9Y=">
+<img src="https://media.istockphoto.com/id/511801274/vector/jockey-on-horse.jpg?s=612x612&w=0&k=20&c=8okiQUOClXm1kRFr16IFsxzm7VPZM8QYwoFH0_e9C9Y=" alt="Intro Image">
 
 
 The art of randomness -- introduction this Project on Horse Racing Simulaton!
@@ -17,6 +17,7 @@ Have fun and wish you good luck!!
 
 ## Demo
 
+<img src="/images/demo-horseRacing.gif" alt="Demo GIF">
 
 <br>
 
@@ -29,9 +30,9 @@ The experience will be the best when racing on a desktop.
 <br>
 
 ## Future improvements
-- [ ] Make the racing responsive to different display types (mobile, tablet)
+- [x] Make the racing responsive to different display types (mobile, tablet)
 - [ ] Make the titles fade in and out when changing texts.
-- [ ] Add keydown eventlistener to have the racer start the game by pressing any key.
+- [x] Add keydown eventlistener to have the racer start the game by pressing any key.
 - [ ] Add sound effects for winning or losing.
 - [ ] Refactor the code to make the horses added dynamically.
 
